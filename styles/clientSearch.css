@@ -1,0 +1,94 @@
+button{
+	cursor: pointer;
+}
+
+.content .msg{
+	width: 100vw;
+	height: 30px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	backdrop-filter: blur(20px);
+	color: red;
+	text-shadow: 0px 0px 2px rgb(255, 255, 255);
+}
+
+.content{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-top: 60px;
+	color: azure;
+	z-index: 2;
+}
+
+.content .searchTable{
+	width: 100%;
+}
+
+.searchTable .searchTableHeader{
+	display: flex;
+	justify-content: space-between;
+	height: 60px;
+	padding: 5px 10px;
+	backdrop-filter: blur(20px);
+}
+
+.tableName h1{
+	color: rgba(255, 236, 0, 1);
+	text-shadow: 0px 0px 3px rgb(255, 255, 255);
+}
+
+.searchInput input{
+	background: transparent;
+	padding: 0 5px;
+	border: none;
+	outline: none;
+	border: 2px solid rgba(255, 255, 255, .2);
+	border-radius: 40px;
+	font-size: 16px;
+	color: rgb(240, 245, 249);
+}
+
+.userID, .name, .email, .contact, .cfph, .rating{
+	width: 15%;
+}
+
+.searchTableBody{
+	height: 80vh;
+	overflow-x: auto;
+    overflow-y: auto;
+    white-space: nowrap;
+}
+
+.searchTableBody table{
+	width: 100%;
+	border-collapse: collapse;
+}
+
+.searchTableBody th{
+	color: rgba(255, 236, 0, 1);
+	text-shadow: 0px 0px 2px rgba(255, 255, 255, 1.0);
+}
+
+.searchTableBody th, td{
+	border: 2px solid rgba(255, 255, 255, 1);
+	padding: 3px;
+	text-align: center;
+}
+
+.btnRequest{
+	background-color: rgb(50, 140, 70);
+	color: rgb(255, 255, 255);
+	text-shadow: 0px 0px 2px rgb(0, 0, 0);
+	border: none;
+	border-radius: 5px;
+	padding: 2px 5px;
+}
+
+.btnRequest:hover{
+	box-shadow: 0px 0px 5px rgb(0, 0, 0);
+}
+
+
+

@@ -1,0 +1,25 @@
+table button{
+	color: azure;
+	text-shadow: 0 0 3px rgb(0, 0, 0);
+	border: none;
+	border-radius: 5px;
+	font-size: 15px;
+	padding: 2px 5px;
+	margin: 2px 0;
+}
+
+table .btnReject{
+	background: rgb(190, 50, 50);
+}
+
+table .btnReject:hover{
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 1.0);
+}
+
+table .btnApprove{
+	background: rgb(50, 150, 50);
+}
+
+table .btnApprove:hover{
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 1.0);
+}

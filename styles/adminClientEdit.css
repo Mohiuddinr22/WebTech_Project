@@ -1,0 +1,72 @@
+.content{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+    height: 100vh;
+    min-height: 100vh;
+    color: azure;
+}
+
+.content h1{
+	font-size: 36px;
+	text-align: center;
+	color: rgb(240, 245, 249);
+	text-shadow: 0px 0px 3px rgba(255, 255, 255, 1);
+}
+
+.content .editInfo{
+	background: transparent;
+	color: rgb(240, 245, 249);
+	border-radius: 10px;
+	padding: 30px 40px;
+	border: 2px solid rgba(255, 255, 255, 0.2);
+	backdrop-filter: blur(20px);
+	box-shadow: 0 0 100px rgba(0, 0, 0, 1);
+}
+
+.editInfo input{
+	width: 100%;
+	height: 100%;
+	background: transparent;
+	border: none;
+	outline: none;
+	border: 2px solid rgba(255, 255, 255, .2);
+	border-radius: 40px;
+	font-size: 16px;
+	color: rgb(240, 245, 249);
+	padding: 10px 15px;
+	margin: 3px 0px;
+}
+
+.editInfo .contentButtons{
+	position: relative;
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	height: 45px;
+	padding: 5px 0;
+}
+
+.contentButtons button{
+	font-size: 20px;
+	padding: 0px 15px;
+	margin-right: 10px;
+	cursor: pointer;
+	color: rgb(255, 255, 255);
+	text-shadow: 0px 0px 4px rgb(0, 0, 0);
+	border: none;
+	border-radius: 5px;
+	font-weight: 400;
+}
+
+.contentButtons .btnUpdate{
+	background: rgb(50, 140, 70);
+}
+
+.contentButtons .btnCancel{
+	background: rgb(170, 50, 50);
+}
+
+.contentButtons button:hover{
+	box-shadow: 0px 5px 10px rgb(0, 0, 0);
+}
